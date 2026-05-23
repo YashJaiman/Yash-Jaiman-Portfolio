@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import { containerVariants, itemVariants } from '../../utils/motion';
+import myImage from '../../assets/images/myimage.jpeg';
 
 const About = () => {
   const [ref, isVisible] = useScrollAnimation();
@@ -23,7 +24,7 @@ const About = () => {
           <Tilt tiltMaxAngleX={8} tiltMaxAngleY={8} glareEnable glareMaxOpacity={0.2} scale={1.02} transitionSpeed={1000}>
             <div className='relative glass-premium p-3 rounded-3xl overflow-hidden'>
               <div className="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent pointer-events-none z-10" />
-              <img src='/MY IMAGE.jpeg' alt='Yash Jaiman profile portrait' width='448' height='448' loading='lazy' decoding='async' className='w-full max-w-md mx-auto rounded-2xl object-cover filter contrast-125 saturate-150 relative z-0' />
+              <img src={myImage} alt='Yash Jaiman profile portrait' width='448' height='448' loading='lazy' decoding='async' className='w-full max-w-md mx-auto rounded-2xl object-cover filter contrast-125 saturate-150 relative z-0' />
               
               <div className='absolute -bottom-6 -right-6 glass-premium p-6 rounded-2xl border border-white/20 shadow-[0_10px_40px_rgba(0,212,255,0.3)] animate-float z-20 backdrop-blur-xl'>
                 <p className='text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-neon-cyan to-white'>

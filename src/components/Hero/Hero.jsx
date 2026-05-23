@@ -2,6 +2,7 @@ import React, { lazy, Suspense, useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 import { TypeAnimation } from 'react-type-animation';
+import myImage from '../../assets/images/myimage.jpeg';
 
 const HeroScene = lazy(() => import('./HeroScene'));
 
@@ -105,7 +106,7 @@ const Hero = () => {
                   <div className='absolute inset-0 bg-gradient-to-br from-neon-cyan/20 via-transparent to-neon-purple/20 z-20 pointer-events-none mix-blend-overlay group-hover:opacity-100 opacity-50 transition-opacity duration-500' />
                   
                   <img 
-                    src='/MY IMAGE.jpeg' 
+                    src={myImage} 
                     alt='Yash Jaiman' 
                     width='450'
                     height='450'
