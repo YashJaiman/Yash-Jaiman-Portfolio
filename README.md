@@ -166,5 +166,3 @@ VITE_API_BASE_URL=https://example.com
 ## 👨‍💻 Author
 
 **Yash Jaiman**
-E OR OTHER DEALINGS IN THE
-SOFTWARE.
