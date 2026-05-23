@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Production-ready React developer portfolio with cyberpunk glassmorphism UI, live LeetCode stats, projects, timeline, and certifications.",
   "type": "module",
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
